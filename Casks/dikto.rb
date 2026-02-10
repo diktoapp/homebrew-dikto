@@ -5,7 +5,7 @@ cask "dikto" do
   url "https://github.com/diktoapp/dikto/releases/download/v#{version}/Dikto-#{version}.dmg"
   name "Dikto"
   desc "Voice-to-text transcription for macOS"
-  homepage "https://diktoapp.github.io/dikto"
+  homepage "https://diktoapp.github.io"
 
   depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
